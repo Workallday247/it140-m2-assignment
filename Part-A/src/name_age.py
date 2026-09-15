@@ -1,20 +1,19 @@
-"""TODO: Replace with a one-line summary of the program's purpose (<73 chars).
-
+"""Ask for a user's name and age and calculate the birth year.
 Input:
-    TODO: Replace with a major input, including its type and source.
-    TODO: Replace with another major input, or delete this TODO line.
-    TODO: Replace with another major input, or delete this TODO line.
+    Name as a string entered by the user.
+    Age as an integer entered by the user. 
+    
 
 Process:
-    TODO: Replace with a major processing step.
+Calculate birth year by subtracting age from the current year.
 
 Output:
-    TODO: Replace with a major output, including its type and destination.
+Display the user's name and calculated birth year on the screen.
 
 Typical usage example:
-    TODO: Replace with the input prompt and original name-input example.
-    TODO: Replace with the input prompt and original age-input example.
-    TODO: Replace with the resulting output from those inputs.
+    What is your name? Armani
+    How old are you? 21
+    Hello Armani! You were born in 2005.
 """
 
 # === Imports ===
@@ -29,9 +28,9 @@ def main() -> None:
     """Run the name-age program."""
 
     # Get user input.
-    name = imput("What is your name? ")
+    name = input("What is your name? ")
     age = int(input("How old are you? "))
-    birth_year = CURRENT- YEAR - age
+    birth_year = CURRENT_YEAR - age
     
     # Output personalized message with user's name and birth year.
     print(f"Hello {name}! You were born in {birth_year}.")
@@ -42,5 +41,4 @@ if __name__ == "__main__":
 
 
 # === References ===
-# TODO: Replace with an APA-style reference for a source you used, or delete.
-# TODO: Replace with another APA-style reference, or delete this TODO line.
+
